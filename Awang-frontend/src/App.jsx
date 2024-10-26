@@ -4,12 +4,12 @@ import viteLogo from '/vite.svg'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div>
+      <button type="button" className='btn btn-primary'>Log</button>
       <div>I am the best of best. Keep working</div>
-    </>
+    </div>
   )
 }
 
